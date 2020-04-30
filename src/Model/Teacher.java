@@ -1,3 +1,5 @@
+package Model;
+
 public abstract class Teacher {
     private int id;
     private String name;
@@ -30,7 +32,7 @@ public abstract class Teacher {
 
     @Override
     public String toString() {
-        return "Teacher:\n" +
+        return "Model.Teacher:\n" +
                 " Name: " + this.getName() +
                 "\n Id: " + this.getId()+
                 "\n Salary: " + String.format("%.0f",salary())+

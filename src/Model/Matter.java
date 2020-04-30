@@ -1,5 +1,6 @@
+package Model;
+
 import java.util.HashMap;
-import java.util.List;
 
 public class Matter {
     private String name;
@@ -41,10 +42,10 @@ public class Matter {
 
     @Override
     public String toString() {
-        return "Matter:" +
+        return "Model.Matter:" +
                 "\n Name: " + name  +
                 "\n ClassRoom:" + classRoom +
-                "\n Teacher:" + getTeacher().getName() +
+                "\n Model.Teacher:" + getTeacher().getName() +
                 "\n Students:" + students ;
     }
 }

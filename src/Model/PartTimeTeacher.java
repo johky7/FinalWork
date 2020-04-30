@@ -1,3 +1,7 @@
+package Model;
+
+import Model.Teacher;
+
 public class PartTimeTeacher extends Teacher {
     private int hourActiveAWeek;
 

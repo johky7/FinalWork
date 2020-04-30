@@ -1,4 +1,8 @@
-import java.util.HashMap;
+package View;
+
+import Controller.UniversityDB;
+import Model.*;
+
 import java.util.Scanner;
 
 public class Main {
@@ -101,7 +105,7 @@ public class Main {
                         System.out.println("Do you want add a new student?");
                         validator = operation.nextLine();
                     } while (validator.contains("y"));
-                    universityDB1.matterList.add(matter5);
+                    universityDB1.getMatterList().add(matter5);
                     break;
                 case 5:
                     System.out.println("Enter the ID number to search");
